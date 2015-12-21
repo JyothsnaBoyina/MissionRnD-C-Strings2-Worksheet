@@ -7,7 +7,7 @@ using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
 namespace spec
 {
-	TEST_CLASS(GetLastWord)
+	TEST_CLASS(getFrequencyofWordSpec)
 	{
 	public:
 
