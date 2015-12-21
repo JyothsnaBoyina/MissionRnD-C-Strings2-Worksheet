@@ -35,8 +35,8 @@ namespace spec
 		TEST_METHOD(ComplexString)
 		{
 			char str[] = "a .?2343 BCDE mu";
-			int consonants = 4;
-			int vowels = 3;
+			int consonants ;
+			int vowels ;
 			count_vowels_and_consonants(str, &consonants, &vowels);
 
 			Assert::AreEqual(consonants, 4, L"Consonants should be 4", LINE_INFO());
@@ -46,8 +46,8 @@ namespace spec
 		TEST_METHOD(ComplexCapitalLong)
 		{
 			char str[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-			int consonants = 21;
-			int vowels = 5;
+			int consonants ;
+			int vowels ;
 			count_vowels_and_consonants(str, &consonants, &vowels);
 
 			Assert::AreEqual(consonants, 21, L"Consonants should be 21 for A-Z", LINE_INFO());
