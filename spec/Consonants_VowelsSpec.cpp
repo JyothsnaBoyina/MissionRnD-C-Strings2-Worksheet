@@ -12,8 +12,8 @@ namespace spec
 		TEST_METHOD(OneLetter)
 		{
 			char str[] = "a";
-			int consonants = 0;
-			int vowels = 0;
+			int consonants ;
+			int vowels ;
 			count_vowels_and_consonants(str, &consonants, &vowels);
 
 			Assert::AreEqual(consonants, 0, L"Consonants should be 0", LINE_INFO());
@@ -24,8 +24,8 @@ namespace spec
 		TEST_METHOD(EmptyString)
 		{
 			char str[] = "";
-			int consonants = 0;
-			int vowels = 0;
+			int consonants ;
+			int vowels ;
 			count_vowels_and_consonants(str, &consonants, &vowels);
 
 			Assert::AreEqual(consonants, 0, L"Consonants should be 0", LINE_INFO());
@@ -57,8 +57,8 @@ namespace spec
 		TEST_METHOD(NULLstring)
 		{
 			char *str=NULL;
-			int consonants = 0;
-			int vowels = 0;
+			int consonants ;
+			int vowels ;
 			count_vowels_and_consonants(str, &consonants, &vowels);
 
 			Assert::AreEqual(consonants, 0, L"Consonants should be 0 for NULL", LINE_INFO());
