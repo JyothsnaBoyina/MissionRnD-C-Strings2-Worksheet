@@ -27,5 +27,13 @@
     <ClCompile Include="getFrequencyofWord.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="MainStrings2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FunctionHeadersStrings2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
